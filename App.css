@@ -1,0 +1,96 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color: #f5f6ff;
+}
+.container{
+  padding:10px;
+  /*background-color: yellow;*/
+  max-width: fit-content;
+  margin:50px auto;
+}
+.btn{
+  border-color: none;
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor:pointer;
+  
+}
+.btn-add{
+  background-color: #194064;
+  color: #f5f6ff;
+ 
+}
+.addContainer{
+  position:absolute;
+  background-color:rgba(0,0, 0, 0.2);
+  left:0;
+  right:0;
+  bottom: 0;
+  top:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.addContainer form{
+  width:420px;
+  background-color:white;
+  display: flex;
+  flex-direction:column;
+  padding: 50px 30px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.addContainer form label{
+  font-size: 18px;
+}
+.addContainer form input{
+  font-size: 18px;
+  padding: 2px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.addContainer form button{
+
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+
+}
+.tableContainer{
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.tableContainer table thead tr{
+  background-color:#f0eaea;
+  text-align: center;
+}
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td{
+  min-width: 130px;
+  padding: 7px;
+}
+.tableContainer table tbody tr td{
+  border-bottom: 1px solid #c9c5c2;
+
+}
+
+.btn-edit,
+.btn-delete{
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+
+.btn-edit{
+  background-color:#e2f413;
+}
+.btn-delete{
+  background-color:red;
+  color: white;
+}
